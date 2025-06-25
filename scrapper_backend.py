@@ -7,14 +7,6 @@ headers = {
 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 \ (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
 }
 
-
-links = [
-    "https://www.morele.net/karta-graficzna-gigabyte-radeon-rx-7600-xt-gaming-oc-16gb-gddr6-gv-r76xtgaming-oc-16gd-13168875/",
-    "https://www.morele.net/karta-graficzna-gigabyte-geforce-rtx-5060-windforce-oc-8gb-gddr7-dlss4-gv-n5060wf2oc-8gd-15234816/",
-    "https://www.morele.net/karta-graficzna-pny-geforce-rtx-4060-ti-verto-dual-fan-8gb-gddr6-vcg4060t8dfxpb1-12923011/",
-    "https://www.morele.net/karta-graficzna-palit-geforce-rtx-5060-dual-8gb-gddr7-dlss4-ne75060019p1-gb2063d-15068906/"
-]
-
 def init_db():
         conn = sqlite3.connect("links.db")
         cursor = conn.cursor()
